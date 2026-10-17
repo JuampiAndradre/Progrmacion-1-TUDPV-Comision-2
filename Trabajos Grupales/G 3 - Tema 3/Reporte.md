@@ -1,23 +1,26 @@
 # Reporte Técnico de Cátedra - Fase 1
-**Juego Asignado:** [Nombre del Juego]  
-**Número de Grupo:** Grupo XX  
+**Juego Asignado:** Pokemon 
+**Número de Grupo:** Grupo 3
 
 ## 1. Integrantes del Equipo
-* Apellido y Nombre 1 - Legajo XXXXX (Rol / Rama: dev-Nombre1Apellido1-Legajo)
-* Apellido y Nombre 2 - Legajo XXXXX (Rol / Rama: dev-Nombre2Apellido2-Legajo)
-* Apellido y Nombre 3 - Legajo XXXXX (Rol / Rama: dev-Nombre3Apellido3-Legajo)
+* Andrade Juan Pablo - Legajo 67092 (Rol:Programador)
+* Cruz Dante - Legajo 67138 (Rol:Programador)
+* Sanchez Fullone Matteo- Legajo 67140 (Rol:Programador)
+* Maldonado Lucas - Legajo     (Rol:Programador)
+* Jose Luis Martin  - Legajo     (Rol:Programador) 
 
 ## 2. Diagnóstico y Arquitectura Inicial
 * Descripción general del modelado de clases diseñado por el equipo.
 
 ## 3. Módulos y Clases Implementadas (Mínimo 4)
-* Clase Base: [Nombre] (Atributos protegidos, constructor y métodos virtuales).
-* Clase Derivada 1: [Nombre] (Herencia y métodos override).
-* Clase Derivada 2: [Nombre] (Herencia y métodos override).
-* Clase Gestora / Inventario: [Nombre] (Encapsulamiento y colección de objetos).
+* Clase Base: Pokemon([Apodo,Vida,Nivel],[Pokemon(string apodo, int vida, int nivel)],{Atacar(Pokemon objetivo)} ).
+* Clase Derivada 1: Charizard ([: base(apodo,vida,nivel)],[ Atacar(Pokemon objetivo)]).
+* Clase Derivada 2: Empoleon ([: base(apodo,vida,nivel)],[Atacar(Pokemon objetivo)]).
+* Clase Base: Entrenador ( [nombre], [capturarpokemon()])
+
 
 ## 4. Control de Errores y Validaciones
-* Explicación de qué valores inválidos fueron prevenidos mediante encapsulamiento (`private`, `get`/`set`).
+Pedir los apodos y atacar con los pokemon
 
 ## 5. Guía de Ejecución en Consola
-* Instrucciones para que el docente ejecute el `Main()` y verifique el polimorfismo.
+* El programa indica los pasos a seguir para elegir los pokemon y atacar
